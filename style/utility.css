@@ -7,12 +7,21 @@
     grid-auto-flow: column;
 }
 
+.grid-auto-flow {
+    grid-auto-flow: column;
+    align-items: center;
+}
+
 .grid-cols-2 {
     grid-template-columns: 1fr 1fr;
 }
 
 .gap-16 {
     gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
 }
 
 .text-2xl {
@@ -25,6 +34,10 @@
 
 .text-lg {
     font: var(--h3);
+}
+
+.text-base {
+    font: var(--text);
 }
 
 .text-sm {
